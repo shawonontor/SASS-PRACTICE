@@ -1,0 +1,141 @@
+
+@import'./variables';
+@import'./extend';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(231, 226, 218);
+    
+    .navi{ 
+        display: flex;
+        justify-content: space-between;
+        margin:$margin-body;
+        
+        h3{
+            margin-top: 30px;
+            span{
+                color: $btn-textcolor;
+            }
+        }
+        ul{
+            display: flex;
+            gap: 40px;
+            margin-top: 30px;
+        }
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            color: black;
+        }
+    }
+    .banner-style{
+        display: flex;
+        margin: 30px 120px;
+        gap: 200px;
+
+        h1{
+            font-size: 40px;
+            span{
+                color: $btn-textcolor;
+            }
+        }
+        p{ 
+            margin-top: 22px;
+
+        }
+        #banner-text{
+            margin-top: 70px;
+        }
+        .banner-img{
+            margin-bottom: 80px;
+            img{
+                width: 370px;
+            }
+        }
+    }
+}
+.button-1{
+    border: 1px solid $btn-textcolor;
+    border-radius: 5px;
+    background-color:$btn-textcolor;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+    color: white;
+    margin-top: 20px;
+    img{
+        width: 30px;
+    }
+}
+// header & banner end;
+main{ 
+    margin: $margin-body;
+    margin-top: 30px;
+    h1{
+        font-size: 30px;
+        color: chocolate;
+        margin-bottom: 30px;
+    }
+    .women-jacket{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-column-gap: 15px;
+       
+
+    }
+    .Jacket{
+        
+        border: 1px solid whitesmoke;
+        border-radius:5px ;
+        background-color:whitesmoke;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .img1{
+       
+       background-color: azure;
+       width: 300px;
+       border-radius: 10px;
+       margin: auto;
+       margin-top: 15px;
+       
+       
+    }
+    .img2{
+        flex:1;
+        padding: 16px 40px;    
+        width: 300px; 
+        margin: auto;
+    }
+    h2{
+        margin: 15px 0 20px 35px;
+    }
+    p{
+        margin: 15px 0 20px 35px;
+    }
+    
+
+}
+.buy-now{
+    @extend %primary-button;
+    margin: 15px 0 20px 35px;
+}
+.ttt{
+    margin: $margin-body;
+    margin-top:$margin-t;
+}
+
+.men-jackets{
+    @extend %main-style1;
+    
+} 
+

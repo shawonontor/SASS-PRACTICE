@@ -1,0 +1,177 @@
+.buy-now {
+  border: 1px solid coral;
+  border-radius: 5px;
+  background-color: coral;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 10px;
+  color: white;
+  margin-top: 20px;
+}
+.buy-now img {
+  width: 30px;
+}
+
+.men-jackets {
+  margin: 0 120px;
+  margin-top: 30px;
+}
+.men-jackets h1 {
+  font-size: 30px;
+  color: chocolate;
+  margin-bottom: 30px;
+}
+.men-jackets .women-jacket {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 15px;
+}
+.men-jackets .Jacket {
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  align-items: center;
+  justify-content: center;
+}
+.men-jackets .img1 {
+  background-color: azure;
+  width: 300px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 15px;
+}
+.men-jackets .img2 {
+  flex: 1;
+  padding: 16px 40px;
+  width: 300px;
+  margin: auto;
+}
+.men-jackets h2 {
+  margin: 15px 0 20px 35px;
+}
+.men-jackets p {
+  margin: 15px 0 20px 35px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(231, 226, 218);
+}
+header .navi {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 120px;
+}
+header .navi h3 {
+  margin-top: 30px;
+}
+header .navi h3 span {
+  color: coral;
+}
+header .navi ul {
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+}
+header .navi li {
+  list-style: none;
+}
+header .navi a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+header .banner-style {
+  display: flex;
+  margin: 30px 120px;
+  gap: 200px;
+}
+header .banner-style h1 {
+  font-size: 40px;
+}
+header .banner-style h1 span {
+  color: coral;
+}
+header .banner-style p {
+  margin-top: 22px;
+}
+header .banner-style #banner-text {
+  margin-top: 70px;
+}
+header .banner-style .banner-img {
+  margin-bottom: 80px;
+}
+header .banner-style .banner-img img {
+  width: 370px;
+}
+
+.button-1 {
+  border: 1px solid coral;
+  border-radius: 5px;
+  background-color: coral;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 10px;
+  color: white;
+  margin-top: 20px;
+}
+.button-1 img {
+  width: 30px;
+}
+
+main {
+  margin: 0 120px;
+  margin-top: 30px;
+}
+main h1 {
+  font-size: 30px;
+  color: chocolate;
+  margin-bottom: 30px;
+}
+main .women-jacket {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 15px;
+}
+main .Jacket {
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  align-items: center;
+  justify-content: center;
+}
+main .img1 {
+  background-color: azure;
+  width: 300px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 15px;
+}
+main .img2 {
+  flex: 1;
+  padding: 16px 40px;
+  width: 300px;
+  margin: auto;
+}
+main h2 {
+  margin: 15px 0 20px 35px;
+}
+main p {
+  margin: 15px 0 20px 35px;
+}
+
+.buy-now {
+  margin: 15px 0 20px 35px;
+}
+
+.ttt {
+  margin: 0 120px;
+  margin-top: 30px;
+}/*# sourceMappingURL=style1.css.map */
